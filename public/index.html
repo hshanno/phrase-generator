@@ -1,0 +1,22 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phrase Generator</title>
+</head>
+<body>
+  <h1>Random Phrase Generator</h1>
+  <button id="generate">Generate Phrase</button>
+  <p id="phrase"></p>
+
+  <script>
+    document.getElementById("generate").addEventListener("click", async () => {
+      const response = await fetch("/api/phrase");
+      const data = await response.json();
+      document.getElementById("phrase").textContent = data.content;
+    });
+  </script>
+</body>
+</html>

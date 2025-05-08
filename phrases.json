@@ -1,0 +1,150 @@
+{
+    "Phrases": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "1"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "Believe in yourself!"
+                   }
+                  
+                }
+            }
+        },
+	{
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "2"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "Do the best you can with what you have!"
+                   }
+                  
+                }
+            }
+        },
+	{
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "4"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "Every journey begins with a single step."
+                   }
+                  
+                }
+            }
+        },
+          {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "5"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "Every action you take is a vote of confidence for the person you wish to become."
+                   }
+                  
+                }
+            }
+        },
+	          {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "6"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "Small steps every day lead to big results."
+                   }
+                  
+                }
+            }
+        },
+          {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "7"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "You don't have to be great to start, but you have to start to be great."
+                   }
+                  
+                }
+            }
+        },
+          {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "8"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "Your only limit is your mind."
+                   }
+                  
+                }
+            }
+        },
+          {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "9"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+                   }
+                  
+                }
+            }
+        },
+          {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "10"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "One day at a time."
+                   }
+                  
+                }
+            }
+        }
+
+       
+    ]
+}
