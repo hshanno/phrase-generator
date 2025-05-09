@@ -36,6 +36,22 @@
             "PutRequest": {
                 "Item": {
                     "id": {
+                        "S": "3"
+                    },
+                    "category": {
+                        "S": "Motivational"
+                    },
+                    "content": {
+                        "S": "You grow through what you go through."
+                   }
+                  
+                }
+            }
+        },
+	{
+            "PutRequest": {
+                "Item": {
+                    "id": {
                         "S": "4"
                     },
                     "category": {
